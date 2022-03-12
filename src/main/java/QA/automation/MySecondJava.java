@@ -25,10 +25,11 @@ public class MySecondJava {
         }else { System.out.println("Parameters are not equal"); }
 
         //Third Task
-        System.out.println("Enter some text and I will count the words in it:");
-        String toBeCounted = scanner.nextLine();
-        String [] stringArray = toBeCounted.split(" ");
-        System.out.println( "\""+toBeCounted + "\"" + " has " + stringArray.length + " words.");
+        String testString = "I`ve Aways wanted to climb Everest";
+
+        String [] stringArray = testString.split(" ");
+
+        System.out.println( testString + " has " + stringArray.length + " words ");
 
         //Fourth Task
         String book1 = ("The name of this book is LOD. ");
